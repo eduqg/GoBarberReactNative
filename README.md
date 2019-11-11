@@ -12,7 +12,7 @@ Projeto criado com:
 __
 Adicionar dependencias iniciais:
 
-> yarn add reactotron-react-native react-navigation react-navigation-stack styled-components axios
+> yarn add reactotron-react-native react-navigation react-navigation-stack styled-components axios prop-types
 
 __
 Para iniciar aplicativo.
@@ -44,4 +44,9 @@ Pode não ser necessário o seguinte comando para futuras versões. Isto gera um
 
 > react-native link react-native-linear-gradient
 ___
+Vector Icons
 
+> yarn add react-native-vector-icons
+
+Para adicionar icones do material, devo seguir passo a passo do github de android do react-native-vector-icons
+___
