@@ -10,11 +10,13 @@ Projeto criado com:
 > react-native init nativegobarber
 
 __
-Adicionar dependencias iniciais:
 
-> yarn add reactotron-react-native react-navigation react-navigation-stack styled-components axios prop-types reactotron-redux reactotron-redux-saga
+Adicionar dependencias:
+
+> yarn add reactotron-react-native react-navigation react-navigation-stack styled-components axios prop-types reactotron-redux reactotron-redux-saga redux-persist @react-native-community/async-storage
 
 __
+
 Para iniciar aplicativo.
 
 Rodar metro bundler.
@@ -35,7 +37,9 @@ Ir na documenteção e seguir passo a passo.
 > yarn add react-native-reanimated react-native-gesture-handler react-native-screens@^1.0.0-alpha.23
 
 Configurar rotas.
+
 ___
+
 Para configurar gradiente linear de cores.
 
 > yarn add react-native-linear-gradient
@@ -44,6 +48,7 @@ Pode não ser necessário o seguinte comando para futuras versões. Isto gera um
 
 > react-native link react-native-linear-gradient
 ___
+
 Vector Icons
 
 > yarn add react-native-vector-icons
