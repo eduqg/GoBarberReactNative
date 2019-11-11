@@ -12,7 +12,7 @@ Projeto criado com:
 __
 Adicionar dependencias iniciais:
 
-> yarn add reactotron-react-native react-navigation react-navigation-stack styled-components axios prop-types
+> yarn add reactotron-react-native react-navigation react-navigation-stack styled-components axios prop-types reactotron-redux reactotron-redux-saga
 
 __
 Para iniciar aplicativo.
