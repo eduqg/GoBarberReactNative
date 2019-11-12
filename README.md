@@ -63,3 +63,10 @@ No celular, abrir configurações e colocar host e port como:
 > 192.168.x.xx:8081
 
 ___
+
+Para configurar multiplas tabs de navegação.
+
+> yarn add react-nativation-tabs
+
+___
+
