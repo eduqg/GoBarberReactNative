@@ -55,3 +55,11 @@ Vector Icons
 
 Para adicionar icones do material, devo seguir passo a passo do github de android do react-native-vector-icons
 ___
+
+Configuração Reactotron
+
+No celular, abrir configurações e colocar host e port como:
+
+> 192.168.x.xx:8081
+
+___

@@ -8,10 +8,8 @@ import rootReducer from './modules/rootReducer';
 import rootSaga from './modules/rootSaga';
 
 // Para reactotron em ambiente de desenvolvimento
-const sagaMonitor =
-  process.env.NODE_ENV === 'development'
-    ? console.tron.createSagaMonitor()
-    : null;
+// IMPORTANTE: Caso tenha importado store do front, não deixar __DEV__ === 'development'!!
+const sagaMonitor = __DEV__ ? console.tron.createSagaMonitor() : null;
 
 const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
 
