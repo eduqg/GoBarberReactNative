@@ -70,3 +70,6 @@ Para configurar multiplas tabs de navegação.
 
 ___
 
+Para datas
+
+> yarn add date-fns
