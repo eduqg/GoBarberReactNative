@@ -61,6 +61,7 @@ export default (signedIn = false) =>
             Profile,
           },
           {
+            resetOnBlur: true,
             tabBarOptions: {
               // Para que o teclado fique em cima na bottom bar
               keyboardHidesTabBar: true,
